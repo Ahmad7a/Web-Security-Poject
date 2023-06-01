@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f5f5;
+	color: #333;
+	font-size:16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	background-image: url('../images/benjamin-wedemeyer-HHx_8m6-YNk-unsplash\ \(1\).jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+main {
+	padding: 80px 0;
+}
+
+section {
+	margin-bottom: 80px;
+}
+
+section:last-of-type {
+	margin-bottom: 0;
+}
+
+.team-member {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.team-member img {
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.team-member h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.team-member p {
+	font-size: 18px;
+	margin: 0;
+	color: #666;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 36px;
+	}
+	nav ul li {
+		margin-right: 20px;
+	}
+	.team-member {
+		margin-right: 20px;
+	}
+	.team-member img {
+		width: 80px;
+		height: 80px;
+	}
+	.team-member h3 {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.team-member p {
+		font-size: 14px;
+	}
+	.social-media-icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	  }
+	  
+	  .social-media-icons a {
+		display: inline-block;
+		margin: 0 10px;
+		border-radius: 50%;
+		transition: transform 0.3s ease-in-out;
+	  }
+	  
+	  .social-media-icons a:hover {
+		transform: scale(1.2);
+	  }
+	  
+	  .social-media-icons img {
+		width: 50px;
+		height: 50px;
+		object-fit: cover;
+		border-radius: 50%;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	  }
+}
